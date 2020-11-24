@@ -1,0 +1,16 @@
+<%- include('./partials/header.ejs') %>
+<main>
+  <form action="api/tests" method="POST">
+  <label for="question">Pregunta:</label>
+  <textarea id="question" name="question" required></textarea>
+  <label for="answer1">Respuesta A:</label>
+  <textarea id="answer1" name="answer1" required></textarea>
+  <label for="answer2">Respuesta B:</label>
+  <textarea id="answer2" name="answer2" required></textarea>
+  <label for="answer3">Respuesta C:</label>
+  <textarea id="answer3" name="answer3" required></textarea>
+  <label for="answer4">Respuesta D:</label>
+  <textarea id="answer4" name="answer4" required></textarea>
+  <button>Submit</button>
+</form></main> 
+<%- include('./partials/footer.ejs') %>                     
